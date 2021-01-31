@@ -99,6 +99,7 @@ nav ul li a:hover, a.active{
     width: 80%;
     text-align: center;
     display: block;
+    margin-left: 100px;
 }
 .booking-content h1{
     font-size: 70px;
