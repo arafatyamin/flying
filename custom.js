@@ -33,5 +33,16 @@ submitBtn.addEventListener('click', function () {
      const bookingArea = document.getElementById('booking-area')
      bookingArea.style.display = "none";
      const confirmArea = document.getElementById('confirm-area')
-     confirmArea.style.display="block"
+     confirmArea.style.display = "block"
+     // clear cache
+     document.getElementById('economy-count').value = "0";
+     document.getElementById('firstClass-count').value = "0";
+})
+// return home page
+const doneBtn = document.getElementById('done');
+doneBtn.addEventListener('click', function () {
+     const confirmArea = document.getElementById('confirm-area')
+     confirmArea.style.display = "none"
+     const bookingArea = document.getElementById('booking-area')
+     bookingArea.style.display = "block";
 })
